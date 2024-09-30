@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWBイベントPL-900コース用_ラボガイド</title>
+    <style>
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>PL-900ラボガイド</h1>
+    <p>本コース受講者のみの限定ファイルです。ご自身の学習に限りSNS等での拡散不可とします。</p>
+    <iframe src="test.pdf" id="pdfViewer"></iframe>
+
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
+        document.addEventListener('keydown', function(event) {
+            if (event.ctrlKey && (event.key === 'p' || event.key === 's')) {
+                event.preventDefault();
+            }
+        });
+    </script>
+    <p>Excelダウンロードページに戻る</p>p
+    <a href="index.html">Excelダウンロードページへ</a>
+</body>
+</html>
